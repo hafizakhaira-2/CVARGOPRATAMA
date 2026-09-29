@@ -131,3 +131,46 @@ details p{color:#70757c;font-size:13px;padding:0 0 20px}
   .footer-bottom{flex-direction:column;gap:10px}
   .contact-card{padding:32px 24px}.btn{width:100%}
 }
+
+
+/* =========================
+   WEBSITE LOCK
+   ========================= */
+#lockForm {
+  display: grid;
+  gap: 10px;
+}
+
+#lockPassword {
+  width: 100%;
+  border: 1px solid #41464d;
+  border-radius: 14px;
+  padding: 14px 16px;
+  outline: none;
+  background: #0c0e10;
+  color: #fff;
+  font: inherit;
+}
+
+#lockPassword::placeholder {
+  color: #686e76;
+}
+
+#lockPassword:focus {
+  border-color: #aeb3b9;
+  box-shadow: 0 0 0 3px rgba(174,179,185,.1);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media(max-width:560px) {
+}
